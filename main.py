@@ -43,6 +43,7 @@ def generate_maze(filepath):
 
 	for i in range(0,width-1):
 		for j in range(0,height-1):
+			cube(i,-j,0)
 			if(get_value(maze_image,i,j)==0):
 				cube(i,-j,0)
 
