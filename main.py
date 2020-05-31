@@ -58,7 +58,7 @@ if __name__ == '__main__':
 			generate_maze(_maze_file)
 			sys.exit(0)
 		else:
-			print('{} does not exist! exiting...'.format(maze_file))
+			print('{} does not exist! exiting...'.format(_maze_file))
 			sys.exit(1)
 	elif(args.template_file != None):
 		_template_file = args.template_file
